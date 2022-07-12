@@ -20,7 +20,7 @@ const setB = 'a:1, a:2, a:3, a:4, a:5, a:126, a:127, b:100, c:2, c:3, d:1';
 const setASplit = setA.split(', ');
 const setBSplit = setA.split(', ');
 
-const sort = (a,b) => a - b;
+// const sort = (a,b) => a - b;
 
 const unionArray = (arr1, arr2) => {
   const removeDupl = [...new Set([ ...arr1, ...arr2])].sort((a,b) => a-b);
